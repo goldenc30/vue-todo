@@ -9,13 +9,13 @@
 
 <script>
 export default {
-    data: function(){
+    data(){
         return {
             newTodoItem: ""
         }
     },
     methods: {
-        addTodo: function(){
+        addTodo(){
             if(this.newTodoItem == ''){
                 return;
             }
@@ -26,7 +26,7 @@ export default {
             this.clearInput();
 
         },
-        clearInput: function(){
+        clearInput(){
             this.newTodoItem = '';
 
         }

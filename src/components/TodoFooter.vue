@@ -9,7 +9,7 @@
 <script>
 export default {
     modthods: {
-        clearTodo: function(){
+        clearTodo(){
             localStorage.clear();
         }
     }
